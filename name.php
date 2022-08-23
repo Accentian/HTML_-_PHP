@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Travel to Rome results</title>
+</head>
+
+<body>
+	<h1>Your Results</h1>
+<?php
+$firstName = $_POST['firstName'];
+$middleName = $_POST['middleName'];
+$lastName = $_POST['lastName'];
+
+print("<p>Your name is $firstName $middleName $lastName.</p>");
+
+?>
+</body>
+</html>
